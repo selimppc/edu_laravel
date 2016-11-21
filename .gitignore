@@ -1,0 +1,56 @@
+vendor/
+
+# Laravel 4 specific
+bootstrap/compiled.php
+
+# Laravel 5 & Lumen specific
+.env.*.php
+.env.php
+.env
+.env.example
+
+#later added ignores
+composer.lock
+.idea/
+.phpintel
+.phpintel/
+nbproject/
+#.gitignore
+storage/
+
+## Packages ##
+##############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+## Logs / Database ##
+#####################
+*.log
+*.sql
+*.sqlite
+
+## OS generated ##
+.DS_Store
+.DS_Store?
+._*
+.Spotlight_V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Build System ##
+##################
+node_modules/
+bower_components/
+.sass-cache
+*.css.map
+build/
+dist/
+
+
